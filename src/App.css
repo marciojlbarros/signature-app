@@ -1,10 +1,28 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.signature-form-container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.signature-canvas {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +54,5 @@
     transform: rotate(360deg);
   }
 }
+
+
